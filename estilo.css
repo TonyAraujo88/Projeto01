@@ -66,17 +66,33 @@ nav {
     height: 24px;
 }
 
+.icone--botao--pesquisa:hover {
+    width: 30px;
+    height: 30px;
+}
+
 .botao--microfone {
     width: 38px;
     height: 38px;
     border: 0;
     outline: 0;
-    border-radius: 50%;margin-left: 10px;
+    border-radius: 50%;
+    margin-left: 32px;
     background-color: #2a2a2a;
 }
 
 .topo--container--3 {
     display:flex;
     flex: 1;
-    background-color: yellow;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 34px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #912df5;
 }
