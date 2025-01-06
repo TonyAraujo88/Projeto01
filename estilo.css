@@ -95,4 +95,9 @@ nav {
     height: 34px;
     border-radius: 50%;
     background-color: #912df5;
+    margin-right: 12px;
+}
+
+.icone--container--3 {
+    width: 29px;
 }
