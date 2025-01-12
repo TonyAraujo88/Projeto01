@@ -139,6 +139,30 @@ nav {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+}
+
+.midia--social--1 {
+    display: flex;
+    width: 1643px;
+    height: 252px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;      
+}
+
+.midia--social--2 {
+    display: flex;
+    width: 95px;
+    height: 45px;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    position: relative;
+    left: 60px;
+    top: 35px;
 }
 
 .meio--container {
@@ -228,5 +252,27 @@ nav {
 }
 
 .menu--container {
-    
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.menu--item {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #8f8f8f;
+    font-weight: 500;
+
+}
+
+.menu--item--selecionado {
+    color: white;
+    border-bottom: 2px solid #9a9a9a;
 }
