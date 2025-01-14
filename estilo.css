@@ -376,7 +376,17 @@ nav {
     flex-direction: row;
 }
 
-.nome-video--sessao {
+.nome--video--sessao {
     font-size: 17px;
     margin-top: 15px;
+}
+
+.nome--canal {
+    margin: 0;
+    color: #9a9a9a;
+    font-family: Roboto;
+    font-size: 15.987px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
 }
